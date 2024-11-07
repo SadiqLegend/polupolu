@@ -36,9 +36,9 @@ section {
   margin: 0 auto;
   padding: 2em;
   width: 300px;
-  background:#1c1f2b;
+  background:#111222;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 10px;
   position: relative;
 }
 
@@ -59,7 +59,7 @@ section {
   translate: -50% -50%;
   z-index: -1;
   padding: 3px;
-  border-radius: 20px;
+  border-radius: 10px;
   animation: 3s spin linear infinite;
 }
 .card::before{
