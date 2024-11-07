@@ -24,3 +24,4 @@ ScrollReveal().reveal('.meetingCaption', { delay: 700 , origin : 'right' });
 ScrollReveal().reveal('.heading2 div', { distance: '20px' ,delay: 400 , origin : 'bottom' , interval :200});
 
 ScrollReveal().reveal('.meetingCaption2', { delay: 400 , origin : 'bottom'});
+ScrollReveal().reveal('.bottom2', { delay: 500 , origin : 'bottom'});
