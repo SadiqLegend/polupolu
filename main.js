@@ -7,7 +7,14 @@ document.onreadystatechange = function () {
     document.querySelector("body").style.visibility = "visible";
   }
 };
+
+let audio = document.getElementById("bgm");
+function test() {
   
+  audio.play();
+  popup.classList.add("open-popup");
+}
+
 ScrollReveal({
   reset: true,
   distance: '60px',
