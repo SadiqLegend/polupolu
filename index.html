@@ -1,11 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <title>Document</title>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+           pop: ['Poppins', 'serif'],
+         },
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
 </head>
-<body>
-    Under Construction 😅
+<body class="bg-[#111222] snap-y snap-proximity">
+    
+    <section class="h-svh">
+      <div class="container flex relative justify-center items-center flex-col w-max">
+       
+       <span class="heading text-2xl font-bold font-sans text-white">From where it started</span>
+       
+      <div class="relative flex flex-col justify-center items-center w-auto h-auto pt-20">
+        
+         <div class="meeting w-4/5 h-4/5">
+           <img class="z-10 w-max h-max object-cover rounded-lg" src="images/bg.jpg" alt="Internet speed is slow :(">
+         </div>
+      
+      
+      <div class="meetingCaption z-20 backdrop-blur-sm bg-[#ffffff1a] rounded-2xl p-2 border-1.2 border-solid border-white translate-x-[25%] translate-y-[-40%] transform-gpu w-3/5">
+        <span class="text-slate-300 font-pop">"From that magical moment when our eyes first met, every day since has been a beautiful adventure. Here’s to us and the journey we continue to share! ❤️"</span>
+      </div>
+      
+      </div>
+      
+      </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    <section class="h-svh">
+      <div class="container flex relative justify-center items-center flex-col w-max">
+      <div class="flex heading2 text-2xl font-bold font-sans text-white px-0 py-20">
+        <div class="px-1">A</div>
+        <div class="px-1">carousel</div>
+        <div class="px-1">as</div>
+        <div class="px-1">beautiful</div>
+        <div class="px-1">as</div>
+        <div class="px-1">you!</div>
+        </div>
+      <div class="swiper w-100">
+        <swiper-container class="mySwiper w-80" effect="cards" grab-cursor="true">
+          <swiper-slide><img class="swiper-slide" src="images/img0.jpg" alt="Oops"></swiper-slide>
+          <swiper-slide><img class="swiper-slide" src="images/img1.jpg" alt="Oops"></swiper-slide>
+          <swiper-slide><img class="swiper-slide" src="images/img2.jpg" alt="Oops"></swiper-slide>
+          <swiper-slide><img class="swiper-slide" src="images/img6.jpg" alt="Oops"></swiper-slide>
+          <swiper-slide><img class="swiper-slide" src="images/img4.jpg" alt="Oops"></swiper-slide>
+          <swiper-slide><img class="swiper-slide" src="images/img5.jpg" alt="Oops"></swiper-slide>
+        </swiper-container>
+      </div>
+      </div>
+    </section>
+    
+    <section class="h-svh">
+      <div class="container flex relative justify-center items-center flex-col w-max">
+       
+       <span class="heading text-2xl font-bold font-sans text-white">If beauty were time, you'd be eternity🤩</span>
+       
+      <div class="relative flex flex-col justify-center items-center w-auto h-auto pt-20">
+        
+         <div class="meeting w-4/5 h-4/5">
+           <img class="z-10 w-max h-max object-cover rounded-lg" src="images/img11.jpg" alt="Internet speed is slow :(">
+         </div>
+      
+      
+      <div class="meetingCaption2 z-20 backdrop-blur-sm bg-[#ffffff1a] rounded-2xl p-2 border-1.2 border-solid border-white translate-x-[1%] translate-y-[10%] transform-gpu w-3/5">
+        <span class="text-slate-300 text-bold font-pop">"Tu Shaq Na Kar Mere Jazbato Pe,
+Tere Sath Hi Zindagi Meri Khubsurat Hai,
+Jitni Ehmiyat Hai Pani Ki Marte Insan K Liye,
+Bus Utni Hi Muje Teri Zarurat Hai...❤️"</span>
+      </div>
+      
+      </div>
+      
+      </div>
+    </section>
+
+    <section class="h-svh snap-center">
+      <div class="container text-xl flex font-extrabold items-center justify-center relative">
+      <div class="card bg-[#fffff1a] text-slate-300 font-pop">
+      You are my favourite song, my favourite place, you ar my everything you have my heart, you keep it safe. I am just so lucky every day and I love you jaan  more than words can say.
+      Your love has changed my entire life, and I love you my  mamma. Your presence in my life is more than anything to me it make me feel complete and the important. Warm wishes for moon's Birthday polu polu
+      </div>    
+      </div>
+    </section>
+
+
+   
+    
+    <section class="h-svh snap-center">
+      <div class="container text-2xl flex font-extrabold items-center justify-center relative">
+        <span class="bottom items-center justify-center bg-clip-text text-transparent bg-gradient-to-r from-sky-500 via-indigo-500 via-purple-500 to-rose-600">
+          Made with love by Sadiq ❤️
+          </span>
+          </div>
+    </section>
+    
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </body>
 </html>
